@@ -1,0 +1,64 @@
+table {
+    /* Pour le centrer dans la page */
+    margin: 0 auto;
+    width: 400px;
+    /* Pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #289889;
+    border-radius: 1em;
+}
+
+label {
+    /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+.button {
+    /* Pour positionner les boutons de la même manière que les champs textuels */
+    padding-left: 90px; /* même dimension que les étiquettes */
+	/*padding-top:4px;*/
+}
+
+button {
+    /* Cette marge représente approximativement le même espace
+       que celui entre les étiquettes et les champs textuels */
+    margin-center: .em;
+	padding: 10em
+
+}
+input[type=submit], input[type=reset] {
+ padding:6px 0 6px 0;
+	font:bold 13px Arial;
+	background:#f5f5f5;
+	color:#555;
+	border-radius:2px;
+	width:100px;
+	border:1px solid #ccc;
+	box-shadow:1px 1px 3px #999;
+ }
+a
+{
+color: white;
+}
+.images_petit {
+width:100px;
+height:100px;
+}
+
+body {
+	margin:15em; padding:0; background-color: #D5F3EF ; 
+	}
+h1 {
+color: #6E6E6E;
+font-size: 44px
+}
+h2{
+color: #6E6E6E;
+font-size: 20px
+}
+
+
+
+
+ 

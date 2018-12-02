@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D5F3EF ;
+    color: #eeeeee ;
+}
+h1 {
+	color: #6A289C
+	
+}
+#galerie div {
+
+    float: left ;
+    position: relative;
+    border: 3px solid #666;
+    margin: 10px;
+    padding:5px;
+    background-color: #efefef;
+    height:225px;
+}
+#galerie div p {
+    position: absolute ;
+    top: 120px;
+    background-color: rgba(50,50,50,0.6);
+    width:280px;
+    font-size: 20px;
+    font-weight: bold;
+    padding:10px;
+}
+#galerie div .icone {
+    background: url('img/icon.ico') no-repeat;
+    display: block;
+    width:50px;
+    height:50px;
+    border: 5px solid #ffffff;
+    border-radius: 30px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+
+/* Au survol */
+#galerie div:hover {
+    border-color: #bae9ff;
+    background-color: #3cccfe;
+}
+#galerie div:hover p {
+    display: none;
+}
+#galerie div:hover .icone {
+    border-color: #3cccfe;
+}
+ul {
+ align:center
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+li {
+ margin-left:2px;
+ float:left; /*pour IE*/
+ }
+ul li a {
+ display:block;
+ float:left;   
+ width:100px;
+ background-color:#6495ED;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border:2px solid;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+ul li a:hover {
+ background-color:#D5F3EF ;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ } 
+ 
+ .menu{
+	display: inline-block;
+	background: rgba(0,0,0,0.5);
+	
+}
+
+.menu .btn{
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 22px;
+	float: right;
+	color: #D5F3EF ;
+	padding: 8px 12px; 
+	
+}
+
+
+.btn:hover{
+	cursor: pointer;
+	background-color: #E56464;
+	color: #D5F3EF ;
+}
+
+
+.btn .fa{
+	background-color: #000;
+	color: #D5F3EF ;
+	width: 42px;
+	height: 42px;
+	text-align: right;
+	line-height: 42px;
+	border-radius: 50%;
+	margin-right: 8px;
+	
+	
+	
+}

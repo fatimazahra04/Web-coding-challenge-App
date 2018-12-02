@@ -1,0 +1,44 @@
+ <html>
+ <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+ <head>
+         <meta charset="utf-8">
+        <title>Login Form</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+ </head>
+ <body>
+ <style type="text/css">
+body {
+  background:url(img/moun4.jpg);
+}
+</style>
+ <form class="login-form" name="form1" method="get" action="gallery.php">
+	        <div class="h1">Sign in</div>
+	        <div id="form-content">
+	            <div class="group">
+	                <label for="mail">Mail</label>
+	                <div><input name="mail"  type="text" placeholder="mail"></div>
+	            </div>
+	           <div class="group">
+	                <label for="password">password</label>
+	                <div><input name="password" type="password" placeholder="password"></div>
+	            </div>
+			<?php if($error) { ?>
+	                <em>
+						<label class="err" for="password" generated="true" style="display: block;"><?php echo $error ?></label>
+					</em>
+				<?php } ?>
+	            <div class="group submit" action=>
+	                <label class="empty"></label>
+	                <div><input name="Submit" type="submit" value="Login"/></div>
+	            </div>
+	        </div>
+	        <div id="form-loading" class="hide"><i class="fa fa-circle-o-notch fa-spin"></i></div>
+</form>	
+ <?php echo <br/><a href='javascript:self.history.back();'>Go Back</a>
+ </body>
+  </html>
