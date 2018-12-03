@@ -4,6 +4,7 @@ The app folder called is divided into 3 parts:
 1- Images folder: "img" ;it containes all the pictures used in the app
 2- PHP and HTML files for each page
 3- CSS files
+4- Database file
 
 -To begin,you have to import the database file "application_shop" into your phpmyadmin databases
 -Now you can start!
